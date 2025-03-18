@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Sierra Leone Brewery Limited",
+        "address": "Wellington Industrial Estate, Freetown, Sierra Leone",
+        "phone": "+232 22 222222",
+        "website": "https://sierraleonebrewery.com"
+    },
+    {
+        "name": "Africell Sierra Leone",
+        "address": "Wilkinson Road, Freetown, Sierra Leone",
+        "phone": "+232 77 777777",
+        "website": "https://africell.sl"
+    },
+    {
+        "name": "Orange Sierra Leone",
+        "address": "Hill Station, Freetown, Sierra Leone",
+        "phone": "+232 88 888888",
+        "website": "https://www.orange.sl"
+    },
+    {
+        "name": "Rokel Commercial Bank",
+        "address": "25-27 Siaka Stevens Street, Freetown, Sierra Leone",
+        "phone": "+232 22 222333",
+        "website": "https://rokelbank.sl"
+    },
+    {
+        "name": "Sierra Leone Commercial Bank",
+        "address": "30 Siaka Stevens Street, Freetown, Sierra Leone",
+        "phone": "+232 22 222444",
+        "website": "https://slcb.com"
+    },
+    {
+        "name": "National Petroleum (NP) Sierra Leone",
+        "address": "Wilkinson Road, Freetown, Sierra Leone",
+        "phone": "+232 22 222555",
+        "website": "https://npsl.com"
+    },
+    {
+        "name": "Radisson Blu Mammy Yoko Hotel",
+        "address": "Aberdeen, Freetown, Sierra Leone",
+        "phone": "+232 79 999999",
+        "website": "https://www.radissonhotels.com"
+    },
+    {
+        "name": "Choithram Supermarket",
+        "address": "Hill Station, Freetown, Sierra Leone",
+        "phone": "+232 22 222666",
+        "website": "https://choithram.com"
+    },
+    {
+        "name": "Mercury International",
+        "address": "Wilkinson Road, Freetown, Sierra Leone",
+        "phone": "+232 22 222777",
+        "website": "https://mercuryinternational.sl"
+    },
+    {
+        "name": "Leone Oil",
+        "address": "Cline Town, Freetown, Sierra Leone",
+        "phone": "+232 22 222888",
+        "website": "https://leoneoil.sl"
+    }
+]
