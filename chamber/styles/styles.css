@@ -267,32 +267,46 @@ section a {
         height: 30px;
     }
 }
+
 /* Hero Section */
 .hero-section {
-    background: url('images/hero-background.jpg') no-repeat center center;
-    background-size: cover;
-    color: rgb(88, 5, 243);
-    text-align: center;
-    padding: 4rem 2rem;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh; /* Adjust height as needed */
-    margin-top: 5rem;
-    border-radius: 10px; /* Optional: Add rounded corners */
-    
+    color: rgb(65, 3, 233);
+    text-align: center;
+    padding: 40px;
+    background-size: cover;
+    background-position: center;
+    animation: backgroundAnimation 15s infinite; /* Animation for background */
+}
+
+/* Keyframes for background animation */
+@keyframes backgroundAnimation {
+    0% {
+        background-image: url('https://th.bing.com/th/id/OIP.zhKj3FOs8S_qGSCGhib86wHaEJ?rs=1&pid=ImgDetMain');
+    }
+    33% {
+        background-image: url('https://artlogic-res.cloudinary.com/w_600,c_limit,f_auto,fl_lossy,q_auto/ws-kavigupta/usr/images/exhibitions/main_image_override/89/manishnaihistoryofgestures-1-1062x720.jpg');
+    }
+    66% {
+        background-image: url('https://th.bing.com/th/id/R.7e112be061cd5f520157b87bcb081fd8?rik=t8eODpnt43%2fG8g&riu=http%3a%2f%2fwww.galleriesnow.net%2fwp-content%2fuploads%2f2014%2f11%2fDavid-Zwirner-20th-St-Jan-Schoonhoven-1.jpg&ehk=zJun%2fhNJfSY%2fBjjey3HqxMda%2fvzRV2p%2ffHjd9kD1bXI%3d&risl=&pid=ImgRaw&r=0');
+    }
+    100% {
+        background-image: url('https://www.pacegallery.com/media/images/MARTIN_inst_20210504_v06.width-720.jpg');
+    }
 }
 
 .hero-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    
 }
 
 .hero-section p {
     font-size: 1.2rem;
-   
 }
 
 /* Responsive styles for hero section */
@@ -309,4 +323,179 @@ section a {
     .hero-section p {
         font-size: 1rem;
     }
+}
+
+/* Spotlight Section */
+#spotlight-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.spotlight-card {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 1rem);
+    max-width: calc(33.333% - 1rem);
+    text-align: center;
+}
+
+.spotlight-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.spotlight-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-card p {
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-card a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.spotlight-card a:hover {
+    text-decoration: underline;
+}
+
+/* Events and Weather Section */
+.events-weather-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px; /* Adds space between the columns */
+    margin: 20px 0;
+}
+
+.current-events, .weather-section {
+    flex: 1; /* Ensures both sections take equal space */
+    min-width: 300px; /* Ensures sections don't shrink too much on smaller screens */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.current-events h3, .weather-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .events-weather-container {
+        flex-direction: column; /* Stacks sections vertically on smaller screens */
+    }
+}
+
+/* Weather Section Styling */
+.weather-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px; /* Limit the size of the weather icons */
+    height: auto;
+}
+
+.weather-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.weather-section ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.weather-section ul li img {
+    width: 50px; /* Size for forecast icons */
+    height: 50px;
+}
+
+/* Current Events Section Styling */
+.current-events ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.current-events li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.current-events h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.current-events p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007BFF; /* Primary color */
+    border: none;
+    border-radius: 25px; /* Rounded border */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.cta-button:active {
+    transform: scale(0.95); /* Slight shrink effect on click */
+}
+
+/* Responsive display for smaller screens */
+@media (max-width: 768px) {
+    .cta-button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+
+
+
+
+/* Centering images in current-events and weather-section */
+.current-events img,
+.weather-section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px; /* Adjust the size of the images */
+    height: auto;
+}
+
+.current-events {
+    text-align: center; /* Center-align the content in the current-events section */
+}
+
+.weather-section {
+    text-align: center; /* Center-align the content in the weather-section */
 }
