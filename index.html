@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundu Kallon</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/profile.png" alt="Profile Picture">
+            <h1>Bundu Kallon</h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">GitHub Profile</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="coursework">
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        
+        <section class="location">
+            <h2>Freetown, Sierra Leone</h2>
+            <img src="images/tree.png" alt="cotton Trees"> 
+            <p>Cotton Tree</p>
+        </section>
+    </main>
+    
+    <section class="certificate">
+        <h2>Web and Computer Programming Certificate</h2>
+        <nav class="buttons">
+            <button onclick="filterCourses('all')">All</button>
+            <button onclick="filterCourses('CSE')">CSE</button>
+            <button onclick="filterCourses('WDD')">WDD</button>
+        </nav>
+        <div class="courses" id="courses">
+            <!-- Courses will be dynamically inserted here -->
+        </div>
+    </section>
+    
+    <footer>
+        <p id="current-year">&copy;2025 🌺 Bundu Kallon Freetown 🌺 Sierra Leone</p>
+        <p id="last-modified">Last Update: 01/01/1970 12:00:00</p>
+    </footer>
+</body>
+</html>

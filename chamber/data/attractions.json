@@ -1,0 +1,65 @@
+
+
+{
+    "items":[
+        {
+            "id": "card1",
+            "name": "City Park",
+            "image": "https://th.bing.com/th/id/OIP.z_Opmn1UQ1uuzMg_pczctgHaE7?rs=1&pid=ImgDetMain",
+            "address": "100 Park Ave, Freetown, Sierra Leone, West Africa",
+            "description": "A beautiful 50-acre park with walking trails, playgrounds, and picnic areas perfect for family outings."
+          },
+          {
+            "id": "card2",
+            "name": "Historical Museum",
+            "image": "https://media.gettyimages.com/id/1342344240/photo/sierra-leone-national-museum-freetown-sierra-leone.jpg?s=612x612&w=gi&k=20&c=z5R_EWVu7MZuwAGaMcMiSrqZVv9gDlr_dTVhS3H9PGQ=",
+            "address": "200 History Lane, Freetown, Sierra Leone, West Africa",
+            "description": "Explore our city's rich history through interactive exhibits and artifacts dating back to the 1800s."
+          },
+          {
+            "id": "card3",
+            "name": "Riverwalk",
+            "image": "https://th.bing.com/th/id/OIP.x98HvdblxfXzrljQtTNjLQHaDt?rs=1&pid=ImgDetMain",
+            "address": "300 Riverside Drive, Freetown, Sierra Leone, West Africa",
+            "description": "Scenic 2-mile paved trail along the river with beautiful views and outdoor art installations."
+          },
+          {
+            "id": "card4",
+            "name": "Downtown Plaza",
+            "image": "https://th.bing.com/th/id/OIP.D9kWXyuQgO_gMeQNoHyGwgHaE8?rs=1&pid=ImgDetMain",
+            "address": "400 Main Street, Freetown, Sierra Leone, West Africa",
+            "description": "The heart of our city featuring shops, restaurants, and frequent community events."
+          },
+          {
+            "id": "card5",
+            "name": "Science Center",
+            "image": "https://th.bing.com/th/id/OIP.yAA49mGiLv7tbpX5fxEdaQHaE7?rs=1&pid=ImgDetMain",
+            "address": "500 Innovation Way, Freetown, Sierra Leone, West Africa",
+            "description": "Interactive science exhibits for all ages, including a planetarium and robotics lab."
+          },
+          {
+            "id": "card6",
+            "name": "Botanical Gardens",
+            "image": "https://th.bing.com/th/id/OIP.MCI_xwJPsxoHRMp-P5FZCwHaEc?rs=1&pid=ImgDetMain",
+            "address": "600 Flora Street, Freetown, Sierra Leone, West Africa",
+            "description": "20 acres of themed gardens showcasing native plants and exotic species from around the world."
+          },
+          {
+            "id": "card7",
+            "name": "Performing Arts Center",
+            "image": "https://th.bing.com/th/id/OIP.GRUW_rXdQ9KFT_tKfeaxNAHaFj?rs=1&pid=ImgDetMain",
+            "address": "700 Culture Avenue, Freetown, Sierra Leone, West Africa",
+            "description": "State-of-the-art venue hosting concerts, plays, and dance performances year-round."
+          },
+          {
+            "id": "card8",
+            "name": "Sports Complex",
+            "image": "https://th.bing.com/th/id/OIP.31psocx764ofV2cXOMMX-AHaEK?rs=1&pid=ImgDetMain",
+            "address": "800 Champion Boulevard, Freetown, Sierra Leone, West Africa",
+            "description": "Premier athletic facility with pools, courts, and fields for community sports and events."
+          }
+
+    ]
+}
+
+

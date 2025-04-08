@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Membership Join</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Welcome to the Kallon Chamber of Commerce. Discover local businesses, community events, and opportunities to grow your business.">
+    <meta property="og:title" content="Kallon Chamber of Commerce - Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero-background.jpg">
+    <meta property="og:url" content="https://wdd13o.github.io/wdd231/chamber/">
+    <meta property="og:description" content="Welcome to the Kallon Chamber of Commerce. Discover local businesses and community events.">
+    <meta name="author" content="Your Full Name">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js" defer></script>
+    <!-- <script>screen -$ notation of the public domain</script> -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="Chamber of Commerce Logo">
+                <h1>Chamber Membership Join</h1>
+            </div>
+            <button class="burger-menu" aria-label="Toggle navigation">
+                &#9776;
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form-modal-container">
+        <div class="form-container">
+        <br><br><br><br>
+            <h2 class="form-heading">Join the Chamber of Commerce Today!!</h2>
+            <form action="thankyou.html" method="get">
+                <!-- Applicant's First Name -->
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Example: Bundu" required title="Enter your first name" autocomplete="given-name">
+            
+                <!-- Applicant's Last Name -->
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required title="Enter your last name" placeholder="Kallon" autocomplete="family-name">
+            
+                <!-- Applicant's Organizational Title -->
+                <label for="organizationTitle">Organizational Title:</label>
+                <input type="text" id="organizationTitle" name="organizationTitle" placeholder=" Example:C.E.O" title="Enter your organizational title (only letters, hyphens, and spaces, minimum 7 characters)" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+            
+                <!-- Email Address -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"  required title="Enter a valid email address" autocomplete="email" placeholder="example@domain.com">
+            
+                <!-- Mobile Phone Number -->
+                <label for="mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" placeholder=" Example:+23288075111" required title="Enter your mobile phone number" autocomplete="tel">
+            
+                <!-- Business/Organization Name -->
+                <label for="businessName">Business/Organization Name:</label>
+                <input type="text" id="businessName" placeholder=" Example: JayCode" name="businessName" required title="Enter your business or organization's name" autocomplete="organization">
+            
+                <!-- Membership Level Selection -->
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel" required title="Select your membership level">
+                    <option value="" disabled selected>Select a membership level</option>
+                    <option value="NP Membership">NP Membership (No fee for non-profit organizations)</option>
+                    <option value="Bronze Membership">Bronze Membership</option>
+                    <option value="Silver Membership">Silver Membership</option>
+                    <option value="Gold Membership">Gold Membership</option>
+                </select>
+            
+                <!-- Business/Organization Description -->
+                <label for="organizationDescription">Business/Organization Description:</label>
+                <textarea id="organizationDescription" name="organizationDescription" title="Provide a description of your business or organization"></textarea>
+            
+                <!-- Timestamp -->
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit Application">
+            </form>
+        </div>
+    
+        <!-- Membership Level Cards -->
+        <section class="membership-levels">
+            <h2 class="form-heading">Membership Level</h2>
+            <div class="membership-card" id="np-card">
+                <h3>Non-Profit Membership</h3>
+                <p>No fee for non-profit organizations.</p>
+                <button class="info-button" onclick="openModal('np-modal')">Learn More</button>
+            </div>
+            <div class="membership-card" id="bronze-card">
+                <h3>Bronze Membership</h3>
+                <p>Basic benefits for small businesses.</p>
+                <button class="info-button" onclick="openModal('bronze-modal')">Learn More</button>
+            </div>
+            <div class="membership-card" id="silver-card">
+                <h3>Silver Membership</h3>
+                <p>Enhanced benefits and event discounts.</p>
+                <button class="info-button" onclick="openModal('silver-modal')">Learn More</button>
+            </div>
+            <div class="membership-card" id="gold-card">
+                <h3>Gold Membership</h3>
+                <p>Premium benefits and advertising opportunities.</p>
+                <button class="info-button" onclick="openModal('gold-modal')">Learn More</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                    <img src="images/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <img src="images/linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                    <img src="images/twitter-icon.png" alt="Twitter">
+                </a>
+            </div>
+            <p>Contact us: info@chamberofcommerce.com | Phone: (232) 88075111</p>
+            <p id="current-year">&copy; <span id="year"></span> Kallon Chamber of Commerce</p>
+            <p id="last-modified">Last Update: <span id="last-modified-date"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
