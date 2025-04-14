@@ -1,0 +1,50 @@
+[
+    {
+        "filename": "landmark1",
+        "alt": "Kallon City Hall building with modern architecture",
+        "title": "City Hall",
+        "description": "The historic City Hall building, constructed in 1925, is a centerpiece of our downtown area."
+    },
+    {
+        "filename": "park1",
+        "alt": "Central Park with lush greenery and walking paths",
+        "title": "Central Park",
+        "description": "Our 50-acre Central Park features walking trails, playgrounds, and summer concert series."
+    },
+    {
+        "filename": "downtown1",
+        "alt": "Vibrant downtown street with shops and restaurants",
+        "title": "Downtown District",
+        "description": "The heart of Kallon's business and entertainment scene with local shops and eateries."
+    },
+    {
+        "filename": "school1",
+        "alt": "Kallon High School building with sports fields",
+        "title": "Kallon High School",
+        "description": "Our award-winning high school serves over 1,200 students with excellent programs."
+    },
+    {
+        "filename": "library1",
+        "alt": "Modern public library with glass facade",
+        "title": "Public Library",
+        "description": "The Kallon Public Library offers over 100,000 volumes and community programs."
+    },
+    {
+        "filename": "riverfront1",
+        "alt": "Scenic riverfront with walking path and benches",
+        "title": "Riverfront Park",
+        "description": "Enjoy our beautiful riverfront with walking paths, fishing piers, and picnic areas."
+    },
+    {
+        "filename": "museum1",
+        "alt": "Kallon History Museum building",
+        "title": "History Museum",
+        "description": "Explore Kallon's rich history through interactive exhibits and artifacts."
+    },
+    {
+        "filename": "farmers-market1",
+        "alt": "Busy farmers market with vendors and customers",
+        "title": "Farmers Market",
+        "description": "Our weekly farmers market features local produce, crafts, and live music."
+    }
+]

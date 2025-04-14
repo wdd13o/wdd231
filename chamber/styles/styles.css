@@ -1195,3 +1195,21 @@ select:valid {
   .name-color { background: #027efa; }
   .address-color { background: #e74c3c; }
   .desc-color { background: #057bf1; }
+
+
+
+  /* Example of good contrast */
+body {
+  color: #333; /* Dark gray on white has good contrast */
+  background-color: #fff;
+}
+
+a {
+  color: #0056b3; /* Blue that meets contrast requirements */
+}
+
+/* For dark backgrounds */
+.dark-bg {
+  color: #fff;
+  background-color: #222;
+}

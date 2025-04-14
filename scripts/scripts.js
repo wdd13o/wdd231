@@ -69,3 +69,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Display all courses by default
     filterCourses('all');
 });
+
+
+// Ensure all images have lazy loading
+document.querySelectorAll('img').forEach(img => {
+    if (!img.loading) {
+        img.loading = 'lazy';
+    }
+});
