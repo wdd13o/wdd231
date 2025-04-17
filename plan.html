@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Living Guide - Site Plan</title>
+    <style>
+        :root {
+            --primary-green: #2e8b57;
+            --secondary-green: #3cb371;
+            --light-green: #98fb98;
+            --dark-green: #006400;
+            --neutral-beige: #f5f5dc;
+            --text-dark: #333333;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--neutral-beige);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--primary-green);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 2.5rem;
+        }
+        
+        h2 {
+            color: var(--dark-green);
+            border-bottom: 2px solid var(--secondary-green);
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        ul {
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+        }
+        
+        .color-swatch {
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            line-height: 120px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .wireframe {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px dashed var(--secondary-green);
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+        
+        .wireframe h3 {
+            text-align: center;
+            color: var(--primary-green);
+        }
+        
+        .wireframe-box {
+            background-color: #e0e0e0;
+            margin: 15px 0;
+            padding: 25px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        
+        .mobile-nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .mobile-nav-item {
+            width: 20%;
+            padding: 10px;
+        }
+        
+        @media (min-width: 768px) {
+            .wireframe-desktop {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                gap: 15px;
+            }
+            
+            .wireframe-desktop .wireframe-box:nth-child(1) {
+                grid-row: 1 / 4;
+            }
+            
+            .desktop-nav {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .desktop-nav-item {
+                padding: 10px 15px;
+            }
+        }
+        
+        .highlight {
+            background-color: var(--light-green);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Eco-Friendly Living Guide - Site Plan</h1>
+    </header>
+    
+    <section id="site-name">
+        <h2>Site Name</h2>
+        <p><strong>Eco-Friendly Living Guide</strong></p>
+        <p>This name was selected because it clearly communicates the website's purpose - to guide visitors toward more sustainable living practices. It's straightforward, memorable, and immediately conveys the site's environmental focus.</p>
+        <p>Optional domain availability: <span class="highlight">ecofriendlyliving.guide</span> or <span class="highlight">greenlivinghub.com</span></p>
+    </section>
+    
+    <section id="site-purpose">
+        <h2>Site Purpose</h2>
+        <p>The Eco-Friendly Living Guide will serve as a comprehensive resource for sustainable living by:</p>
+        <ul>
+            <li>Providing practical tips for reducing waste and conserving resources</li>
+            <li>Educating visitors about sustainable practices in various aspects of daily life</li>
+            <li>Offering interactive tools like a carbon footprint calculator</li>
+            <li>Creating a community space for eco-conscious individuals to connect</li>
+            <li>Showcasing sustainable products and alternatives to conventional items</li>
+        </ul>
+    </section>
+    
+    <section id="scenarios">
+        <h2>Scenarios</h2>
+        <p>These are typical questions that target audience members might ask:</p>
+        <ul>
+            <li>How can I reduce my plastic waste in the kitchen?</li>
+            <li>What are the most energy-efficient appliances for my home?</li>
+            <li>Where can I find ethical clothing brands in my area?</li>
+            <li>What simple changes can my family make to live more sustainably?</li>
+            <li>How do I calculate and reduce my carbon footprint?</li>
+        </ul>
+    </section>
+    
+    <section id="color-schema">
+        <h2>Color Schema</h2>
+        <p>The selected color palette is inspired by nature and sustainability:</p>
+        
+        <div>
+            <div class="color-swatch" style="background-color: #2e8b57;">Primary Green (#2e8b57)</div>
+            <p>Used for headers, primary buttons, and important highlights</p>
+        </div>
+        
+        <div>
+            <div class="color-swatch" style="background-color: #3cb371;">Secondary Green (#3cb371)</div>
+            <p>Used for accents, secondary buttons, and interactive elements</p>
+        </div>
+        
+        <div>
+            <div class="color-swatch" style="background-color: #98fb98; color: #333;">Light Green (#98fb98)</div>
+            <p>Used for backgrounds, highlights, and subtle accents</p>
+        </div>
+        
+        <div>
+            <div class="color-swatch" style="background-color: #006400;">Dark Green (#006400)</div>
+            <p>Used for text headings and important information</p>
+        </div>
+        
+        <div>
+            <div class="color-swatch" style="background-color: #f5f5dc; color: #333;">Neutral Beige (#f5f5dc)</div>
+            <p>Used as the main background color for the site</p>
+        </div>
+    </section>
+    
+    <section id="typography">
+        <h2>Typography</h2>
+        <p>The selected fonts provide excellent readability while maintaining an eco-friendly aesthetic:</p>
+        
+        <h3 style="font-family: 'Montserrat', sans-serif;">Montserrat (Bold 700)</h3>
+        <p style="font-family: 'Montserrat', sans-serif; font-weight: 700;">Used for all headings (H1, H2, H3, etc.) to create strong visual hierarchy and modern feel.</p>
+        
+        <h3 style="font-family: 'Roboto', sans-serif;">Roboto (Regular 400, Medium 500)</h3>
+        <p style="font-family: 'Roboto', sans-serif;">Used for body text, paragraphs, and navigation items for optimal readability across all devices.</p>
+    </section>
+    
+    <section id="wireframe">
+        <h2>Wireframe</h2>
+        
+        <div class="wireframe">
+            <h3>Mobile View</h3>
+             <img src="images/mobile.png" alt="Girl in a jacket" width="500" height="600">
+            <div class="wireframe-box">Header/Logo</div>
+            <div class="wireframe-box">Mobile Menu Button</div>
+            <div class="wireframe-box">Hero Image with Tagline</div>
+            <div class="wireframe-box">Quick Action Buttons (Calculator, Tips, Forum)</div>
+            <div class="wireframe-box">Featured Article</div>
+            <div class="wireframe-box">Tip of the Day</div>
+            <div class="mobile-nav">
+                <div class="wireframe-box mobile-nav-item">Home</div>
+                <div class="wireframe-box mobile-nav-item">Topics</div>
+                <div class="wireframe-box mobile-nav-item">Resources</div>
+                <div class="wireframe-box mobile-nav-item">Pages</div>
+                <div class="wireframe-box mobile-nav-item">Contact</div>
+                <div class="wireframe-box mobile-nav-item">Login/Signup</div>
+            </div>
+        </div>
+        
+      
+        <div class="wireframe">
+            <h3>Desktop View</h3>
+            <img src="images/plan.png" alt="Girl in a jacket" width="1150" height="600">
+            <div class="wireframe-box">Header/Logo</div>
+            <div class="desktop-nav">
+                <div class="wireframe-box desktop-nav-item">Home</div>
+                <div class="wireframe-box desktop-nav-item">Topics</div>
+                <div class="wireframe-box desktop-nav-item">Resources</div>
+                <div class="wireframe-box desktop-nav-item">Pages</div>
+                <div class="wireframe-box desktop-nav-item">Contact</div>
+                <div class="wireframe-box desktop-nav-item">Signin/Signup</div>
+                
+            </div>
+            <div class="wireframe-desktop">
+                <div class="wireframe-box">Sidebar: Quick Links & Resources</div>
+                <div class="wireframe-box">Main Content: Featured Articles</div>
+                <div class="wireframe-box">Carbon Calculator Tool</div>
+                <div class="wireframe-box">Latest Community Posts</div>
+            </div>
+            <div class="wireframe-box">Newsletter Signup</div>
+            <div class="wireframe-box">Footer with Social Links</div>
+        </div>
+    </section>
+</body>
+</html>
